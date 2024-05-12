@@ -15,6 +15,7 @@
      
     <div class="container my-5">
         
+    <h1>All users records</h1>
         <!-- <button class="btn btn-primary my-5"><a href="user.php"class="text-light">Add User</a></button> -->
         <!--<a class="btn btn-primary my-5" href="../user.php" role="button">Add User</a>-->
 
@@ -31,6 +32,7 @@
     </tr>
   </thead>
   <tbody>
+  <a class="btn btn-primary my-5" href="./welcome.php" role="button">Back </a>
     
 <?php
     

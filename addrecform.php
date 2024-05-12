@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
   </head>
   <body>
     <div class="container my-5">
-    <a class="btn btn-primary my-5" href="../seerecform.php" role="button">View records</a>
+    <!--<a class="btn btn-primary my-5" href="../seerecform.php" role="button">View records</a>-->
 
     <form method="post">
 

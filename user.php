@@ -6,7 +6,7 @@
         $phone=$_POST['phone'];
         $email=$_POST['email'];
         $password=$_POST['password'];
-        $sql="INSERT into user (userid,name,phone,email,password) values ('$userid','$name','$phone','$email''$password')";
+        $sql="INSERT into user (userid,name,phone,email,password) values ('$userid','$name','$phone','$email','$password')";
         $result = mysqli_query($con,$sql);
         if($result){
             echo "Data inserted successfully";
@@ -31,7 +31,8 @@
   </head>
   <body>
     <div class="container my-5">
-    <a class="btn btn-primary my-5" href="../display.php" role="button">View User</a>
+   <!-- <a class="btn btn-primary my-5" href="display.php" role="button">View User</a>-->
+   <h1>Register here.</h1>
 
     <form method="post">
 

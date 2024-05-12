@@ -14,6 +14,7 @@
 </body>
      
     <div class="container my-5">
+    <h1>All users goals</h1>
         
         <!-- <button class="btn btn-primary my-5"><a href="user.php"class="text-light">Add User</a></button> -->
         <!--<a class="btn btn-primary my-5" href="../user.php" role="button">Add User</a>-->
@@ -26,10 +27,10 @@
       <th scope="col">Goal ID</th>
       <th scope="col">User ID</th>
       <th scope="col">Target Value</th>
-      <th scope="col">Completion Status</th>
-    </tr>
+      
   </thead>
   <tbody>
+  <a class="btn btn-primary my-5" href="./welcome.php" role="button">Back </a>
     
 <?php
     
@@ -41,13 +42,12 @@
             $goalid=$row['goalid'];
             $u_id=$row['u_id'];
             $tarValue=$row['tarValue'];
-            $com_status=$row['com_status'];
+           
             echo ' <tr>
             <th scope="row">'.$g_id.'</th>
             <td>'.$goalid.'</td>
             <td>'.$u_id.'</td>
             <td>'.$tarValue.'</td>
-            <td>'.$com_status.'</td>
             <td>
             </td>
           </tr>';

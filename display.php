@@ -13,10 +13,10 @@
     
 </body>
      
-    <div class="container">
+    <div class="container my-5">
 
         <!-- <button class="btn btn-primary my-5"><a href="user.php"class="text-light">Add User</a></button> -->
-        <a class="btn btn-primary my-5" href="../user.php" role="button">Add User</a>
+         <!--<a class="btn btn-primary my-5" href="../user.php" role="button">Add User</a>-->
 
 
         <table class="table">
@@ -53,18 +53,17 @@
             <td>'.$email.'</td>
             <td>'.$password.'</td>
             <td>
-            <button class="btn btn-success"><a href="../update.php?updateid='.$u_id.'" class="text-light">Update</a></button>    
-            <button class="btn btn-danger"><a href="../delete.php?deleteid='.$u_id.'" class="text-light">Delete</a></button>
-            <button class="btn btn-warning"><a href="../addrecform.php?u_id=' . $u_id . '" class="text-light">Add Records</a></button>
-            <a class="btn btn-primary " href="../seerecform.php" role="button">See Records</a>
-            <button class="btn btn-info"><a href="../addgoform.php?u_id='.$u_id.'" class="text-light">Add Goals</a></button>
-            <a class="btn btn-primary " href="../seegoform.php" role="button">See Goals</a>
+            <button class="btn btn-success"><a href="update.php?updateid='.$u_id.'" class="text-light">Update users</a></button>    
+            <button class="btn btn-danger"><a href="delete.php?deleteid='.$u_id.'" class="text-light">Delete users</a></button>
+            <button class="btn btn-warning"><a href="addrecform.php?u_id=' . $u_id.'" class="text-light">Add Records</a></button>
+            <button class="btn btn-info"><a href="addgoform.php?u_id='.$u_id.'" class="text-light">Add Goals</a></button>
             
             </td>
           </tr>';
         }
     }
 ?>
+<a class="btn btn-primary my-5" href="./welcome.php" role="button">Back </a>
 </tbody>
 </table>
 </div>

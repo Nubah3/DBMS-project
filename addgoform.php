@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
   </head>
   <body>
     <div class="container my-5">
-    <a class="btn btn-primary my-5" href="../seerecform.php" role="button">View goals</a>
+   <!-- <a class="btn btn-primary my-5" href="../seerecform.php" role="button">View goals</a>-->
 
     <form method="post">
 
@@ -63,11 +63,7 @@ if (isset($_POST['submit'])) {
     <input type="text" class="form-control"
      placeholder="Enter your target value" name="tarValue" autocomplete="off">
 </div>
-<div class="form-group">
-    <label >Completion Status</label>
-    <input type="text" class="form-control"
-     placeholder="Enter your completion status" name="com_status" autocomplete="off">
-</div>
+
 
     
   <button type="submit" class="btn btn-primary" name="submit">Submit</button>
